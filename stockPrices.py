@@ -15,4 +15,4 @@ soup = BeautifulSoup(page, 'html.parser')
 # Finding the ticker by class tag
 ticker = soup.find(class_='D(ib) Maw(65%) Maw(70%)--tab768 Ov(h)').text
 
-print('Current {} share price is:'.format(userStockInput.upper()), ticker)
+print('Current information for {}:'.format(userStockInput.upper()), ticker)
